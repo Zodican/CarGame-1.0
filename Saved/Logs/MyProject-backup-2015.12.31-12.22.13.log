@@ -1,0 +1,759 @@
+﻿[2015.12.22-18.52.25:081][  0]Log file open, 12/22/15 19:52:25
+[2015.12.22-18.52.25:081][  0]LogInit:Display: Running engine for game: MyProject
+[2015.12.22-18.52.25:081][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.22-18.52.25:081][  0]LogInit:Display: RandInit(765207203) SRandInit(765207205).
+[2015.12.22-18.52.25:081][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.22-18.52.25:081][  0]LogStats: Stats thread started at 0.083321
+[2015.12.22-18.52.25:081][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.22-18.52.25:081][  0]LogInit: API Version: 2758231
+[2015.12.22-18.52.25:081][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2015.12.22-18.52.25:081][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.22-18.52.25:081][  0]LogInit: Build Configuration: Development
+[2015.12.22-18.52.25:081][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.22-18.52.25:081][  0]LogInit: Command line:  
+[2015.12.22-18.52.25:081][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.22-18.52.25:081][  0]LogInit: Rocket: 1
+[2015.12.22-18.52.25:090][  0]LogInit: Using libcurl 7.41.0
+[2015.12.22-18.52.25:090][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.22-18.52.25:090][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.22-18.52.25:090][  0]LogInit:  - other features:
+[2015.12.22-18.52.25:090][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.22-18.52.25:090][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.22-18.52.25:090][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.22-18.52.25:090][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.22-18.52.25:090][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.22-18.52.25:090][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.22-18.52.25:090][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.22-18.52.25:090][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.22-18.52.25:090][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.22-18.52.25:090][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.22-18.52.25:097][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.22-18.52.25:104][  0]LogInit: Object subsystem initialized
+[2015.12.22-18.52.25:105][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.22-18.52.25:105][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.22-18.52.25:133][  0]LogInit: Computer: MOSHI-DATOR
+[2015.12.22-18.52.25:133][  0]LogInit: User: moshi
+[2015.12.22-18.52.25:133][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.22-18.52.25:133][  0]LogInit: High frequency timer resolution =3.312785 MHz
+[2015.12.22-18.52.25:133][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.12.22-18.52.25:133][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.22-18.52.25:133][  0]LogMemory: Process Physical Memory: 56.71 MB used, 56.71 MB peak
+[2015.12.22-18.52.25:133][  0]LogMemory: Process Virtual Memory: 56.96 MB used, 56.96 MB peak
+[2015.12.22-18.52.25:133][  0]LogMemory: Physical Memory: 6265.32 MB used, 16366.66 MB total
+[2015.12.22-18.52.25:133][  0]LogMemory: Virtual Memory: 383.50 MB used, 134217728.00 MB total
+[2015.12.22-18.52.25:165][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2015.12.22-18.52.25:600][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.12.22-18.52.25:600][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8183MB of shared system memory, 1 output[s]
+[2015.12.22-18.52.25:602][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.22-18.52.25:602][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8183MB of shared system memory, 0 output[s]
+[2015.12.22-18.52.25:602][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.22-18.52.25:608][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.22-18.52.25:608][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.22-18.52.25:627][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.22-18.52.25:645][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Intermediate/Shaders/WorkingDirectory/39076/).
+[2015.12.22-18.52.25:645][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/moshi/AppData/Local/Temp/UnrealShaderWorkingDir/D8A9AA0A40B61497A67CBF89448474B1/'.
+[2015.12.22-18.52.25:645][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.22-18.52.27:141][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.22-18.52.27:146][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.22-18.52.27:151][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.22-18.52.27:156][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.22-18.52.27:161][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.22-18.52.27:166][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.22-18.52.27:169][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.22-18.52.27:172][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.22-18.52.27:175][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.22-18.52.27:178][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.22-18.52.27:181][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.22-18.52.27:188][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.22-18.52.27:188][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.22-18.52.27:189][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.22-18.52.27:208][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.22-18.52.27:211][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.22-18.52.27:214][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.22-18.52.27:218][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.22-18.52.27:218][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.22-18.52.27:329][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.22-18.52.29:547][  0]LogDerivedDataCache: Loaded boot cache 2.22s 54MB C:/Users/moshi/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.22-18.52.29:547][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/moshi/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.22-18.52.29:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.22-18.52.29:547][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.22-18.52.29:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.22-18.52.29:547][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.22-18.52.29:606][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.22-18.52.29:618][  0]LogDerivedDataCache: Using Local data cache path C:/Users/moshi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.22-18.52.29:851][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.22-18.52.29:854][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.22-18.52.29:997][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.22-18.52.29:997][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.22-18.52.30:491][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.22-18.53.03:749][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.22-18.53.04:294][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.12.22-18.53.04:473][  0]SourceControl: Info Source control is disabled
+[2015.12.22-18.53.04:474][  0]SourceControl: Info Source control is disabled
+[2015.12.22-18.53.04:488][  0]SourceControl: Info Source control is disabled
+[2015.12.22-18.53.04:504][  0]SourceControl: Info Source control is disabled
+[2015.12.22-18.53.05:618][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.22-18.53.05:618][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.12.22-18.53.05:724][  0]LogEngine: Initializing Engine...
+[2015.12.22-18.53.05:727][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.22-18.53.05:727][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.22-18.53.05:839][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.22-18.53.05:845][  0]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.22-18.53.05:857][  0]LogInit: FAudioDevice initialized.
+[2015.12.22-18.53.05:886][  0]LogDerivedDataCache: Saved boot cache 0.03s 54MB C:/Users/moshi/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.22-18.53.05:895][  0]LogInit: Texture streaming: Enabled
+[2015.12.22-18.53.05:901][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.22-18.53.05:901][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.22-18.53.05:901][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 3b7bf7c64a4c5508470d97b6942130af|a6d044dd2c2447f08aad607618b92856|c9acbf5f-2691-4f55-ae74-8fe61e036ac8
+[2015.12.22-18.53.05:902][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.22-18.53.05:923][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.22-18.53.05:945][  0]LogInit: Transaction tracking system initialized
+[2015.12.22-18.53.05:977][  0]BlueprintLog: New page: Editor Load
+[2015.12.22-18.53.06:107][  0]LocalizationService: Info Localization service is disabled
+[2015.12.22-18.53.06:299][  0]LogConsoleResponse:Display: 
+[2015.12.22-18.53.07:167][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.22-18.53.07:483][  0]LogFileCache: Scanning file cache for directory 'C:/Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/' took 0.02s
+[2015.12.22-18.53.07:483][  0]SourceControl: Info Source control is disabled
+[2015.12.22-18.53.07:484][  0]Cmd: MAP LOAD FILE="../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.22-18.53.07:566][  0]LightingResults: New page: Lighting Build
+[2015.12.22-18.53.07:569][  0]MapCheck: New page: Map Check
+[2015.12.22-18.53.07:569][  0]LightingResults: New page: Lighting Build
+[2015.12.22-18.53.07:582][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CE05BF420
+[2015.12.22-18.53.09:496][  0]LogLinker:Warning: Asset '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/VehicleAdvBP/Maps/LayerInfo/Desert_LayerInfo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.22-18.53.09:512][  0]LogLinker:Warning: Asset '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/VehicleAdvBP/Maps/LayerInfo/Track_LayerInfo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.22-18.53.13:355][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2015.12.22-18.53.14:410][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.22-18.53.14:411][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning VehicleAnimationBlueprint_C_0 VehicleAnimationBlueprint_C /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleBlueprint_C_0.VehicleMesh.VehicleAnimationBlueprint_C_0 : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning EngineSound AudioComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleBlueprint_C_0.EngineSound : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning EngineSound AudioComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleBlueprint_C_0.EngineSound : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_10 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_10 : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_11 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_11 : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_12 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_12 : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_13 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_13 : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_2 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_2 : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_3 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_3 : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_4 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_4 : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_5 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_5 : Externally referenced 
+[2015.12.22-18.53.14:554][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_6 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_6 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_7 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_7 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_8 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_8 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_9 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_9 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning VehicleMesh SkeletalMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleBlueprint_C_0.VehicleMesh : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning Landscape_2 Landscape /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_10 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_10 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_11 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_11 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_12 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_12 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_13 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_13 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_2 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_2 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_3 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_3 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_4 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_4 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_5 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_5 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_6 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_6 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_7 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_7 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_8 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_8 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeComponent_9 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_9 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_10 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_10 : Externally referenced 
+[2015.12.22-18.53.14:555][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_11 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_11 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_12 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_12 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_13 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_13 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_2 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_2 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_3 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_3 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_4 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_4 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_5 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_5 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_6 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_6 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_7 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_7 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_8 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_8 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_9 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_9 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_10 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_10 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_11 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_11 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_12 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_12 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_13 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_13 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_2 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_2 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_3 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_3 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_4 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_4 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_5 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_5 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_6 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_6 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_7 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_7 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_8 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_8 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_9 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_9 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning Landscape_2 Landscape /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2 : Externally referenced 
+[2015.12.22-18.53.14:556][  0]MapCheck:Warning: Warning LandscapeComponent_10 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_10 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_11 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_11 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_12 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_12 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_13 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_13 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_2 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_2 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_3 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_3 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_4 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_4 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_5 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_5 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_6 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_6 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_7 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_7 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_8 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_8 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeComponent_9 LandscapeComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeComponent_9 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_10 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_10 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_11 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_11 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_12 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_12 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_13 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_13 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_2 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_2 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_3 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_3 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_4 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_4 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_5 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_5 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_6 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_6 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_7 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_7 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_8 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_8 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning LandscapeHeightfieldCollisionComponent_9 LandscapeHeightfieldCollisionComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2.LandscapeHeightfieldCollisionComponent_9 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning Landscape_2 Landscape /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2 : Externally referenced 
+[2015.12.22-18.53.14:557][  0]MapCheck:Warning: Warning Landscape_2 Landscape /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Landscape_2 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Floor1.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.Floor2.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wave_104.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wave_35.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wave_4.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wave_5.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wave_64.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wave_67.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wave_89.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wave_small_100.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wave_small_2.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_11.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_12.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_13.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_14.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_15.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_16.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_23.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_26.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_3.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_30.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_5.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_6.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_75.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_90.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_94.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_bump_wedge_96.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_loop_big_55.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_loop_big_2.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_ramp_big_103.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_ramp_big_107.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_ramp_big_65.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_ramp_big_68.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_ramp_big_76.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_10.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_106.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_109.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_11.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_13.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_14.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_15.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_17.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_18.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_19.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_2.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_22.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_23.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_24.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_25.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_27.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_28.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_3.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_31.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_32.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_33.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_34.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_35.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_36.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_37.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_38.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_39.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_4.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_40.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_41.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_42.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_43.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_44.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_47.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_48.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_49.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_50.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:560][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_51.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_52.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_53.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_54.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_55.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_56.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_57.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_58.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_59.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_60.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_61.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_62.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_63.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_64.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_68.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_69.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_7.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_70.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_71.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_73.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_80.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_83.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_87.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_88.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_9.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_110.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_122.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_124.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_8.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_84.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_half_119.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_half_45.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_full_6.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_quarter_12.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_quarter_2.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_straight_quarter_87.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_22andhalf_2.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_22andhalf_3.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_22andhalf_4.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_22andhalf_9.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_113.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_116.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_42.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_48.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_50.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_66.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_79.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_80.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:563][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_51.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:563][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_90.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:563][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.AV_turn_90_large_14.StaticMeshComponent0 : Externally referenced 
+[2015.12.22-18.53.14:563][  0]MapCheck: Info Map check complete: 0 Error(s), 202 Warning(s), took 152.205ms to complete.
+[2015.12.22-18.53.14:569][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 7.086
+[2015.12.22-18.53.14:741][  0]LogCollectionManager: Loaded 0 collections in 0.003263 seconds
+[2015.12.22-18.53.14:782][  0]LogFileCache: Scanning file cache for directory 'C:/Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Saved/Collections/' took 0.01s
+[2015.12.22-18.53.14:782][  0]LogFileCache: Scanning file cache for directory 'C:/Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/Developers/moshi/Collections/' took 0.01s
+[2015.12.22-18.53.14:782][  0]LogFileCache: Scanning file cache for directory 'C:/Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/Collections/' took 0.01s
+[2015.12.22-18.53.14:782][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.12.22-18.53.14:790][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 1893 classes and 338 folders.
+[2015.12.22-18.53.14:827][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.12.22-18.53.15:759][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.22-18.53.15:763][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.12.22-18.53.15:934][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.22-18.53.15:969][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.22-18.53.15:992][  0]LogLoad: Full Startup: 51.88 seconds (BP compile: 0.68 seconds)
+[2015.12.22-18.53.16:334][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.22-18.53.16:479][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.22-18.53.17:036][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2015.12.22-18.53.17:075][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.12.22-18.53.18:597][  5]LogAssetRegistry: Asset discovery search completed in 14.3144 seconds
+[2015.12.22-18.53.18:598][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.12.22-18.53.18:598][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2015.12.22-18.53.58:023][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.12.22-18.53.58:055][972]Cmd: MAP LOAD FILE="../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/MenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.22-18.53.58:079][972]LightingResults: New page: Lighting Build
+[2015.12.22-18.53.58:100][972]LoadErrors: New page: Loading map: MenuMap.umap
+[2015.12.22-18.53.58:121][972]MapCheck: New page: Map Check
+[2015.12.22-18.53.58:121][972]LightingResults: New page: Lighting Build
+[2015.12.22-18.53.58:135][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CD08556C0
+[2015.12.22-18.54.00:008][972]LogAIModule: Creating AISystem for world MenuMap
+[2015.12.22-18.54.00:164][972]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.22-18.54.00:200][972]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.22-18.54.00:291][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh3 : Externally referenced 
+[2015.12.22-18.54.00:291][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh4 : Externally referenced 
+[2015.12.22-18.54.00:291][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh2 : Externally referenced 
+[2015.12.22-18.54.00:291][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh1 : Externally referenced 
+[2015.12.22-18.54.00:291][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh11 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh12 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh10 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh13 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh8 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh9 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh17 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh16 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh14 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh15 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh5 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh7 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh6 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh7 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh6 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh17 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh16 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh15 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck:Warning: Warning MenuCar_1684 StaticMeshComponent /Game/MenuMap.MenuMap:PersistentLevel.MenuCar_1684.StaticMesh14 : Externally referenced 
+[2015.12.22-18.54.00:292][972]MapCheck: Info Map check complete: 0 Error(s), 24 Warning(s), took 92.603ms to complete.
+[2015.12.22-18.54.00:334][972]LogFileHelpers: Loading map 'MenuMap' took 2.279
+[2015.12.22-18.54.00:486][973]Cmd: UpdateLandscapeEditorData
+[2015.12.22-18.54.11:147][130]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.22-18.54.11:623][130]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.12.22-18.55.00:267][186]BlueprintLog: New page: Compile MenuWidget
+[2015.12.22-18.55.00:463][186]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.12.22-18.55.00:507][186]BlueprintEditorCompileResults: Info [0156.40] Compile of MenuWidget successful! [in 239 ms]
+[2015.12.22-18.55.02:479][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.22-18.55.02:479][378]PIE: New page: PIE session: MenuMap (22 Dec 2015 20:55:02)
+[2015.12.22-18.55.02:479][378]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MenuMap
+[2015.12.22-18.55.02:485][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005566s)
+[2015.12.22-18.55.02:485][378]LogAIModule: Creating AISystem for world MenuMap
+[2015.12.22-18.55.02:485][378]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2015.12.22-18.55.02:486][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuMap.MenuMap to /Game/UEDPIE_0_MenuMap.MenuMap (0.006574s)
+[2015.12.22-18.55.02:518][378]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.22-18.55.02:529][378]LogInit: FAudioDevice initialized.
+[2015.12.22-18.55.02:708][378]LogWorld: Game class is 'MenuGameMode_C'
+[2015.12.22-18.55.02:716][378]LogWorld: Bringing World /Game/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 0) at 2015.12.22-19.55.02
+[2015.12.22-18.55.02:716][378]LogActor:Warning: GameSession /Game/UEDPIE_0_MenuMap.MenuMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.22-18.55.02:716][378]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MenuMap.MenuMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.22-18.55.02:742][378]LogWorld: Bringing up level for play took: 0.030827
+[2015.12.22-18.55.02:769][378]LogLinker:Warning: Can't find file '/Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly'
+[2015.12.22-18.55.02:769][378]LogLinker:Warning: Can't find file '/Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly'
+[2015.12.22-18.55.02:769][378]LogUObjectGlobals:Warning: Failed to find object 'TouchInterface /Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly.LeftVirtualJoystickOnly'
+[2015.12.22-18.55.02:783][378]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.12.22-18.55.02:840][378]PIE: Info Play in editor start time for /Game/UEDPIE_0_MenuMap -0.193
+[2015.12.22-18.55.04:284][541]LogAdvertising:Warning: GetAdvertisingProvider called with a module name of None.
+[2015.12.22-18.55.04:787][601]LogAdvertising:Warning: GetAdvertisingProvider called with a module name of None.
+[2015.12.22-18.55.05:071][634]LogAdvertising:Warning: GetAdvertisingProvider called with a module name of None.
+[2015.12.22-18.55.05:244][654]LogAdvertising:Warning: GetAdvertisingProvider called with a module name of None.
+[2015.12.22-18.55.07:140][877]LogAdvertising:Warning: GetAdvertisingProvider called with a module name of None.
+[2015.12.22-18.55.07:469][916]LogAdvertising:Warning: GetAdvertisingProvider called with a module name of None.
+[2015.12.22-18.55.07:679][941]LogAdvertising:Warning: GetAdvertisingProvider called with a module name of None.
+[2015.12.22-18.55.07:851][961]LogAdvertising:Warning: GetAdvertisingProvider called with a module name of None.
+[2015.12.22-18.55.08:020][981]LogAdvertising:Warning: GetAdvertisingProvider called with a module name of None.
+[2015.12.22-18.55.09:013][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CC2EF42C0
+[2015.12.22-19.04.05:005][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.12.22-19.04.05:051][961]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuMap' took 0.046
+[2015.12.22-19.04.05:134][961]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VehicleAdvBP/Blueprints/MenuWidget] ([1] browsable assets)...
+[2015.12.22-19.04.05:134][961]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleAdvBP/Blueprints/MenuWidget]
+[2015.12.22-19.04.05:294][961]LogSavePackage: Save=67.172783ms
+[2015.12.22-19.04.05:295][961]LogSavePackage: Moving '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Saved/MenuWidget_Auto1D871F0C440289A721722748A1A75A91A.tmp' to '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/MenuWidget_Auto1.uasset'
+[2015.12.22-19.04.05:296][961]LogSavePackage: Total save time: 132.982068ms
+[2015.12.22-19.04.05:296][961]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/MenuWidget_Auto1.uasset
+[2015.12.22-19.04.05:296][961]LogFileHelpers: Auto-saving content packages took 0.244
+[2015.12.22-19.06.55:422][832]LogSavePackage: Save=30.324032ms
+[2015.12.22-19.06.55:422][832]LogSavePackage: Moving '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Saved/MenuWidget5B097C114260B234ACA19EB18E690C2F.tmp' to '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/VehicleAdvBP/Blueprints/MenuWidget.uasset'
+[2015.12.22-19.06.55:424][832]LogSavePackage: Total save time: 35.380200ms
+[2015.12.22-19.06.55:424][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/VehicleAdvBP/Blueprints/MenuWidget.uasset
+[2015.12.22-19.07.06:168][648]LogSavePackage: Save=29.230391ms
+[2015.12.22-19.07.06:168][648]LogSavePackage: Moving '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Saved/MenuWidget5D0A27DE44B3BA6B81B9359687A887BF.tmp' to '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/VehicleAdvBP/Blueprints/MenuWidget.uasset'
+[2015.12.22-19.07.06:172][648]LogSavePackage: Total save time: 35.407972ms
+[2015.12.22-19.07.06:172][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/VehicleAdvBP/Blueprints/MenuWidget.uasset
+[2015.12.22-19.08.08:417][388]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.12.22-19.08.08:434][388]LogPlayLevel: [PlayLevel] Compiling MenuWidget before play...
+[2015.12.22-19.08.08:518][388]LogPlayLevel: PlayLevel: Blueprint regeneration took 101 ms (2 blueprints)
+[2015.12.22-19.08.08:519][388]LogPlayLevel: [PlayLevel] Compiling MenuPawn before play...
+[2015.12.22-19.08.08:587][388]LogPlayLevel: PlayLevel: Blueprint regeneration took 170 ms (2 blueprints)
+[2015.12.22-19.08.08:587][388]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.12.22-19.08.08:632][388]PIE: New page: PIE session: MenuMap (22 Dec 2015 21:08:08)
+[2015.12.22-19.08.08:632][388]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MenuMap
+[2015.12.22-19.08.08:638][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005663s)
+[2015.12.22-19.08.08:639][388]LogAIModule: Creating AISystem for world MenuMap
+[2015.12.22-19.08.08:639][388]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2015.12.22-19.08.08:639][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuMap.MenuMap to /Game/UEDPIE_0_MenuMap.MenuMap (0.006986s)
+[2015.12.22-19.08.08:688][388]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.22-19.08.08:706][388]LogInit: FAudioDevice initialized.
+[2015.12.22-19.08.08:750][388]LogWorld: Game class is 'MenuGameMode_C'
+[2015.12.22-19.08.08:759][388]LogWorld: Bringing World /Game/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 0) at 2015.12.22-20.08.08
+[2015.12.22-19.08.08:760][388]LogActor:Warning: GameSession /Game/UEDPIE_0_MenuMap.MenuMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.22-19.08.08:760][388]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MenuMap.MenuMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.22-19.08.08:760][388]LogWorld: Bringing up level for play took: 0.006057
+[2015.12.22-19.08.08:762][388]LogLinker:Warning: Can't find file '/Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly'
+[2015.12.22-19.08.08:762][388]LogLinker:Warning: Can't find file '/Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly'
+[2015.12.22-19.08.08:763][388]LogUObjectGlobals:Warning: Failed to find object 'TouchInterface /Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly.LeftVirtualJoystickOnly'
+[2015.12.22-19.08.08:763][388]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.12.22-19.08.08:765][388]PIE: Info Play in editor start time for /Game/UEDPIE_0_MenuMap -0.268
+[2015.12.22-19.08.10:661][554]LogPackageName: SearchForPackageOnDisk took   0.111s to resolve TestMap.umap.
+[2015.12.22-19.08.10:805][554]LogPackageName: SearchForPackageOnDisk took   0.112s to resolve TestMap.umap.
+[2015.12.22-19.08.10:812][554]LogNet: Browse: /Game/TestMap
+[2015.12.22-19.08.10:812][554]LogLoad: LoadMap: /Game/TestMap
+[2015.12.22-19.08.10:882][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019C9F295EE0
+[2015.12.22-19.08.10:882][554]Cmd: MEM
+[2015.12.22-19.08.10:919][554]LogMemory: Platform Memory Stats for Windows
+[2015.12.22-19.08.10:919][554]LogMemory: Process Physical Memory: 870.49 MB used, 870.80 MB peak
+[2015.12.22-19.08.10:919][554]LogMemory: Process Virtual Memory: 1405.36 MB used, 1405.73 MB peak
+[2015.12.22-19.08.10:919][554]LogMemory: Physical Memory: 6402.04 MB used, 16366.66 MB total
+[2015.12.22-19.08.10:919][554]LogMemory: Virtual Memory: 2125.19 MB used, 134217728.00 MB total
+[2015.12.22-19.08.10:919][554]LogMemory: 
+[2015.12.22-19.08.10:919][554]Allocator Stats for TBB: (not implemented)
+[2015.12.22-19.08.12:480][554]LogAIModule: Creating AISystem for world TestMap
+[2015.12.22-19.08.12:481][554]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2015.12.22-19.08.12:517][554]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2015.12.22-20.08.12
+[2015.12.22-19.08.12:517][554]LogActor:Warning: GameSession /Game/UEDPIE_0_TestMap.TestMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.22-19.08.12:517][554]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_TestMap.TestMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.22-19.08.12:517][554]LogWorld: Bringing up level for play took: 0.008095
+[2015.12.22-19.08.12:518][554]LogLinker:Warning: Can't find file '/Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly'
+[2015.12.22-19.08.12:519][554]LogLinker:Warning: Can't find file '/Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly'
+[2015.12.22-19.08.12:519][554]LogUObjectGlobals:Warning: Failed to find object 'TouchInterface /Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly.LeftVirtualJoystickOnly'
+[2015.12.22-19.09.36:147][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CA15FD9E0
+[2015.12.22-19.15.33:752][213]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuMap' took 0.030
+[2015.12.22-19.15.33:758][213]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VehicleAdvBP/Blueprints/MenuWidget] ([1] browsable assets)...
+[2015.12.22-19.15.33:758][213]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleAdvBP/Blueprints/MenuWidget]
+[2015.12.22-19.15.33:784][213]LogSavePackage: Save=18.148476ms
+[2015.12.22-19.15.33:784][213]LogSavePackage: Moving '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Saved/MenuWidget_Auto2FC3EF25D459E2A45ADD6508EFFAD79E0.tmp' to '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/MenuWidget_Auto2.uasset'
+[2015.12.22-19.15.33:786][213]LogSavePackage: Total save time: 26.471082ms
+[2015.12.22-19.15.33:786][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/MenuWidget_Auto2.uasset
+[2015.12.22-19.15.33:786][213]LogFileHelpers: Auto-saving content packages took 0.033
+[2015.12.22-19.16.39:901][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.22-19.16.39:901][623]PIE: New page: PIE session: MenuMap (22 Dec 2015 21:16:39)
+[2015.12.22-19.16.39:901][623]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MenuMap
+[2015.12.22-19.16.39:907][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005659s)
+[2015.12.22-19.16.39:908][623]LogAIModule: Creating AISystem for world MenuMap
+[2015.12.22-19.16.39:908][623]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2015.12.22-19.16.39:908][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuMap.MenuMap to /Game/UEDPIE_0_MenuMap.MenuMap (0.006853s)
+[2015.12.22-19.16.39:908][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.12.22-19.16.39:946][623]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.22-19.16.39:958][623]LogInit: FAudioDevice initialized.
+[2015.12.22-19.16.39:991][623]LogWorld: Game class is 'MenuGameMode_C'
+[2015.12.22-19.16.40:000][623]LogWorld: Bringing World /Game/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 0) at 2015.12.22-20.16.40
+[2015.12.22-19.16.40:000][623]LogActor:Warning: GameSession /Game/UEDPIE_0_MenuMap.MenuMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.22-19.16.40:000][623]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MenuMap.MenuMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.22-19.16.40:001][623]LogWorld: Bringing up level for play took: 0.005676
+[2015.12.22-19.16.40:002][623]LogLinker:Warning: Can't find file '/Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly'
+[2015.12.22-19.16.40:002][623]LogLinker:Warning: Can't find file '/Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly'
+[2015.12.22-19.16.40:002][623]LogUObjectGlobals:Warning: Failed to find object 'TouchInterface /Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly.LeftVirtualJoystickOnly'
+[2015.12.22-19.16.40:002][623]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.12.22-19.16.40:003][623]PIE: Info Play in editor start time for /Game/UEDPIE_0_MenuMap 0.97
+[2015.12.22-19.16.44:411][128]LogPackageName: SearchForPackageOnDisk took   0.082s to resolve TestMap.umap.
+[2015.12.22-19.16.44:490][128]LogPackageName: SearchForPackageOnDisk took   0.076s to resolve TestMap.umap.
+[2015.12.22-19.16.44:490][128]LogNet: Browse: /Game/TestMap
+[2015.12.22-19.16.44:490][128]LogLoad: LoadMap: /Game/TestMap
+[2015.12.22-19.16.44:519][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019C9DC48F40
+[2015.12.22-19.16.44:526][128]Cmd: MEM
+[2015.12.22-19.16.44:556][128]LogMemory: Platform Memory Stats for Windows
+[2015.12.22-19.16.44:556][128]LogMemory: Process Physical Memory: 918.61 MB used, 939.93 MB peak
+[2015.12.22-19.16.44:556][128]LogMemory: Process Virtual Memory: 1456.74 MB used, 1520.38 MB peak
+[2015.12.22-19.16.44:556][128]LogMemory: Physical Memory: 6170.32 MB used, 16366.66 MB total
+[2015.12.22-19.16.44:556][128]LogMemory: Virtual Memory: 2182.58 MB used, 134217728.00 MB total
+[2015.12.22-19.16.44:556][128]LogMemory: 
+[2015.12.22-19.16.44:556][128]Allocator Stats for TBB: (not implemented)
+[2015.12.22-19.16.44:636][128]LogAIModule: Creating AISystem for world TestMap
+[2015.12.22-19.16.44:636][128]LogWorld: Game class is 'VehicleAdvGameMode_C'
+[2015.12.22-19.16.44:644][128]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2015.12.22-20.16.44
+[2015.12.22-19.16.44:644][128]LogActor:Warning: GameSession /Game/UEDPIE_0_TestMap.TestMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.22-19.16.44:644][128]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_TestMap.TestMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.22-19.16.44:644][128]LogWorld: Bringing up level for play took: 0.003584
+[2015.12.22-19.16.44:645][128]LogLinker:Warning: Can't find file '/Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly'
+[2015.12.22-19.16.44:646][128]LogLinker:Warning: Can't find file '/Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly'
+[2015.12.22-19.16.44:646][128]LogUObjectGlobals:Warning: Failed to find object 'TouchInterface /Game/VehicleAdvBP/Vehicle/LeftVirtualJoystickOnly.LeftVirtualJoystickOnly'
+[2015.12.22-19.17.24:353][775]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CA8068EA0
+[2015.12.22-19.18.49:340][135]LogSavePackage: Save=19.646008ms
+[2015.12.22-19.18.49:340][135]LogSavePackage: Moving '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Saved/MenuWidget4BA363674FDBE60AE203D0A26C0B3FF1.tmp' to '../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/VehicleAdvBP/Blueprints/MenuWidget.uasset'
+[2015.12.22-19.18.49:343][135]LogSavePackage: Total save time: 26.053607ms
+[2015.12.22-19.18.49:343][135]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/moshi/Documents/Unreal Projects/MyProject 4.10 - 2/Content/VehicleAdvBP/Blueprints/MenuWidget.uasset
+[2015.12.22-19.20.35:580][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.12.22-19.20.35:605][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CD19F1D00
+[2015.12.22-19.20.35:769][120]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.22-19.20.36:042][121]Cmd: QUIT_EDITOR
+[2015.12.22-19.20.36:383][121]LogExit: Preparing to exit.
+[2015.12.22-19.20.37:255][121]LogExit: Editor shut down
+[2015.12.22-19.20.37:255][121]LogExit: Transaction tracking system shut down
+[2015.12.22-19.20.37:258][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CAE0EFA60
+[2015.12.22-19.20.37:259][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CD185E020
+[2015.12.22-19.20.37:259][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CD185DA80
+[2015.12.22-19.20.37:260][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CD1FB2520
+[2015.12.22-19.20.37:260][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CE8B9B920
+[2015.12.22-19.20.37:260][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019CE8D9D760
+[2015.12.22-19.20.37:440][121]LogExit: Object subsystem successfully closed.
+[2015.12.22-19.20.37:456][121]LogD3D11RHI: Shutdown
+[2015.12.22-19.20.37:456][121]LogD3D11RHI: CleanupD3DDevice
+[2015.12.22-19.20.37:504][121]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.22-19.20.37:521][121]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2015.12.22-19.20.37:521][121]LogModuleManager: Shutting down and abandoning module Advertising (201)
+[2015.12.22-19.20.37:521][121]LogModuleManager: Shutting down and abandoning module SequencerWidgets (200)
+[2015.12.22-19.20.37:521][121]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.12.22-19.20.37:521][121]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.22-19.20.37:521][121]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.22-19.20.37:521][121]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.22-19.20.37:521][121]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.22-19.20.37:521][121]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.22-19.20.37:522][121]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.22-19.20.37:522][121]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.22-19.20.37:522][121]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.22-19.20.37:522][121]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.22-19.20.37:522][121]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.22-19.20.37:523][121]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.22-19.20.37:613][121]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.22-19.20.37:613][121]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.22-19.20.37:613][121]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.22-19.20.37:614][121]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.22-19.20.37:615][121]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.22-19.20.37:615][121]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.22-19.20.37:615][121]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.22-19.20.37:615][121]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.22-19.20.37:615][121]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.22-19.20.37:615][121]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.22-19.20.37:615][121]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.22-19.20.37:615][121]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.22-19.20.37:615][121]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.22-19.20.37:615][121]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.22-19.20.37:730][121]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.22-19.20.37:730][121]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.22-19.20.37:730][121]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.22-19.20.37:730][121]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.22-19.20.37:730][121]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.22-19.20.37:730][121]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.22-19.20.37:730][121]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.22-19.20.37:730][121]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.22-19.20.37:750][121]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.22-19.20.37:750][121]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.22-19.20.37:750][121]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.22-19.20.37:750][121]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.22-19.20.37:750][121]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.22-19.20.37:751][121]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.22-19.20.37:752][121]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.22-19.20.37:752][121]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.22-19.20.37:806][121]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.22-19.20.37:807][121]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.22-19.20.37:807][121]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.22-19.20.37:908][121]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.22-19.20.37:908][121]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.22-19.20.37:908][121]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.22-19.20.37:910][121]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.22-19.20.37:910][121]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.22-19.20.37:910][121]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.22-19.20.37:910][121]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.22-19.20.37:910][121]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.22-19.20.37:910][121]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.22-19.20.37:910][121]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.22-19.20.37:910][121]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.22-19.20.37:910][121]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.22-19.20.37:910][121]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.22-19.20.37:911][121]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.22-19.20.37:911][121]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.22-19.20.37:911][121]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.22-19.20.37:911][121]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.22-19.20.37:911][121]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.22-19.20.37:911][121]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.22-19.20.37:913][121]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.22-19.20.37:913][121]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.22-19.20.37:913][121]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.22-19.20.37:913][121]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.22-19.20.37:913][121]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.22-19.20.37:913][121]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.22-19.20.37:913][121]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.22-19.20.37:913][121]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.22-19.20.37:913][121]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.22-19.20.37:913][121]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.22-19.20.37:931][121]LogDerivedDataCache: Shutdown
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.22-19.20.37:931][121]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.22-19.20.39:933][121]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.22-19.20.39:933][121]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.22-19.20.39:933][121]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.22-19.20.39:933][121]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.22-19.20.39:933][121]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.22-19.20.39:933][121]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.22-19.20.39:933][121]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.22-19.20.39:936][121]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.22-19.20.39:936][121]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.22-19.20.39:936][121]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.22-19.20.39:936][121]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.22-19.20.39:936][121]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.22-19.20.39:936][121]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.22-19.20.39:936][121]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.22-19.20.39:936][121]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.22-19.20.39:936][121]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.22-19.20.39:936][121]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.22-19.20.39:938][121]LogExit: Exiting.
+[2015.12.22-19.20.39:961][121]Log file closed, 12/22/15 20:20:39
